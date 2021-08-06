@@ -1,0 +1,339 @@
+.container{
+    position: absolute;
+    width: 961px;
+    height: 705px;
+    left: 237px;
+    top: 160px;
+}
+
+.deco {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    right: -600px;
+    top: -80px;
+
+    background: #23B2A4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    border: none;
+}
+
+.deco a {
+    outline: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.blocYcoin {
+    position: absolute;
+    width: 263px;
+    height: 127px;
+    right: 0px;
+    top: 0px;
+
+    background: #23B2A4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 27px;
+}
+
+.blocYcoin h1 {
+    position: absolute;
+    left: 87px;
+    top: -14px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.blocYcoin p{
+    position: absolute;
+    height: 42px;
+    width: 23px;
+    left: 120px;
+    top: 30px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.blocMinage {
+    position: absolute;
+    width: 285px;
+    height: 375px;
+    left: 0px;
+    top: 197px;
+
+    background: #23B2A4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.blocMinage h1 {
+    position: absolute;
+    left: 83px;
+    top: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.progress {
+    position: absolute;
+    height: 16px;
+    width: 80%;
+    bottom: 110px;
+    left: 10%;
+    border-radius: 15px;
+    background-color: #1b8b80;
+}
+
+.progress .color{
+    position: absolute;
+    background-color: #ffffff;
+    bottom: 3px;
+    left: 3px;
+    width: 0px;
+    height: 10px;
+    border-radius: 15px;  
+}
+
+.anim {
+    animation: progres 10s linear;
+}
+
+.miniblocMinage {
+    position: absolute;
+    height: 74px;
+    width: 170px;
+    left: 57px;
+    top: 102px;
+    border-radius: 0px;
+
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.miniblocMinage h2 {
+    position: absolute;
+    top: -12px;
+    left: 60px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #23B2A4;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.block {
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.blocMinage button {
+    position: absolute;
+    height: 43px;
+    width: 115px;
+    left: 85px;
+    top: 301px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #23B2A4;
+}
+
+.blocMinage button input {
+    display: none;
+}
+
+
+.blocTransfert {
+    position: absolute;
+    width: 234px;
+    height: 303px;
+    right: 10px;
+    top: 241px;
+    background: #23B2A4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.blocTransfert h1 {
+    position: relative;
+    left: 14.59%;
+    right: 14.16%;
+    top: 4px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.blocTransfert input {
+    position: absolute;
+    width: 70px;
+    left: 35.19%;
+    right: 34.76%;
+    top: 38.28%;
+    bottom: 38.61%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #23B2A4;
+
+}
+
+.blocTransfert input::placeholder {
+    position: absolute;
+    left: 25px;
+    top: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #23B2A4;
+}
+
+.blocTransfert button {
+    position: absolute;
+    width: 130px;
+    left: 54px;
+    top: 78.22%;
+    bottom: 8.58%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    border: none;
+
+    color: #23B2A4;
+}
+
+.blocTransfert button:active {
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.blocContact {
+    position: absolute;
+    width: 268px;
+    height: 527px;
+    right: -510px;
+    top: 89px;
+    background: #23B2A4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+
+}
+
+.blocContact h1 {
+    position: absolute;
+    right: 23.13%;
+    top: 2%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.btn {
+    position: relative;
+    height: 45px;
+    width: 180px;
+    left: 44px;
+    top: 90px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    border: none;
+
+    color: #FFFFFF;
+    background: #23B2A4;
+}
+
+.blocContact button input {
+    display: none;
+}
+
+.active,.blocContact button:hover {
+    background: #2eddcc;
+}
+
+@keyframes progres{
+    0%{
+      width: 0%;
+    }
+    25%{
+        width: 25%;
+    }
+    50%{
+        width: 50%;
+    }
+    75%{
+        width: 75%;
+    }
+    100%{
+        width: 98%;
+    }
+};

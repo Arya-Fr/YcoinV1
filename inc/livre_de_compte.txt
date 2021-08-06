@@ -1,0 +1,9 @@
+Id envois :1| Id reçois :2| Montant échanger :5
+Id envois :1| Id reçois :5| Montant échanger :3
+Id envois :1| Id reçois :3| Montant échanger :5
+Id envois :1| Id reçois :5| Montant échanger :30
+Id envois :1| Id reçois :6| Montant échanger :10
+Id envois :1| Id reçois :3| Montant échanger :10
+Id envois :1| Id reçois :5| Montant échanger :2
+Id envois :1| Id reçois :3| Montant échanger :5
+Id envois :1| Id reçois :6| Montant échanger :2
